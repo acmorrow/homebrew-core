@@ -3,6 +3,7 @@ class MongoCDriver < Formula
   homepage "https://github.com/mongodb/mongo-c-driver"
   url "https://github.com/mongodb/mongo-c-driver/releases/download/1.9.4/mongo-c-driver-1.9.4.tar.gz"
   sha256 "910c2f1b2e3df4d0ea39c2f242160028f90fcb8201f05339a730ec4ba70811fb"
+  head "https://github.com/mongodb/mongo-c-driver.git"
 
   bottle do
     cellar :any
